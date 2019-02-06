@@ -1,0 +1,51 @@
+## Variables ##
+district = arrondissement 
+sect_triris = secteur triris
+morph = morphe pigeon
+colour = couleur pigeon
+colour_simplif = couleur simplifiée 
+extleft_fing = doigt gauche externe 
+medleft_fing = doigt gauche médian 
+intleft_fing = doigt gauche interne 
+backleft_fing = doigt gauche arrière 
+extright_fing = doigt droit externe 
+medright_fing = doigt droit médian  
+intright_fing = doigt droit interne
+backright_fing = doigt droit arrière
+left_tot = total à gauche
+right_tot = total à droite
+total = grand total  
+mutilation = presence mutilsation (0/1) 
+age = âge pigeon 
+weather = météo 
+nbindiv_checked = nb pigeons vérifiés 
+nbindiv_mutil = nb pigeons mutilés
+abund_sect = indice abondance pigeon sur secteur
+area = superficie secteur 
+humpop_2008 = population humaine en 2008 
+humpop_dens = densité pop humaine
+nb_passers = nombre de passants 
+flow_passers = flux de passants (nb/superficie) 
+openmarkets = presence marchés ouverts (0/1)
+bakeries = nb de boulangeries  
+bakeries_dens = densité de boulangeries 
+greenspace_area = superficie espaces verts 
+greenspace_dens = densité espaces verts 
+dovecote = presence pigeonnier (0/1) 
+noise_pollut = pollution sonore 
+PM10 = Particules M10 
+GHG = gaz a effet de serre
+waste = déchets
+waste_dens = densité de déchets
+  
+## Class Variables ##
+>> CONTINUOUS variables: "extleft_fing", "medleft_fing", "intleft_fing", "backleft_fing", "extright_fing", "medright_fing", "intright_fing", "backright_fing", "left_tot", "right_tot", "total", "nbindiv_checked", "nbindiv_mutil", "abund_sect", "area", "humpop_2008", "humpop_dens", "nb_passers", "flow_passers", "openmarkets", "bakeries", "bakeries_dens", "greenspace_area", "greenspace_dens", "noise_pollut", "PM10", "GHG", "waste", "waste_dens"     
+>> FACTOR variables: "district", "sect_triris", "morph", "colour", "colour_simplif","mutilation", "age", "weather", "dovecote"
+
+## Response variable ##
+"mutilation" (binary)
+
+## Explanatory variables ##
+>> linked to pidgeons: "age", "abund_sect", ("morph"), ("colour"), ("colour_simplif")
+>> linked to environment: "area", "humpop_2008", "humpop_dens", "nb_passers", "flow_passers", "openmarkets", "bakeries", "bakeries_dens", "greenspace_area", "greenspace_dens", "noise_pollut", "PM10", "GHG", "waste", "waste_dens", "dovecote", "weather"
+>> site variability  / sampling effect:  "district", "sect_triris",
