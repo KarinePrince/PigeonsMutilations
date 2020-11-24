@@ -1,6 +1,6 @@
 # Exploring the links between anthropogenic factors and fingers' mutilations in Feral pigeons
 
-**Karine Princé and Frédéric Jiguet, February 5, 2018.**
+**Karine Princé and Frédéric Jiguet, February 5, 2018 (updated Nov 24, 2020)**
 
 
 
@@ -10,9 +10,9 @@
 
    Data on feral pigeons were collected as records on the state of pigeon toes on both legs at various local patches in a large city, Paris (France), during spring 2013.
 
-   Data on local environmental conditions were extracted from various online databases (sources can be found on the code *prep_data.R*). We developed a first set of predictors to inform the local frequentation by humans, as the inhabitant density and the number of people frequenting underground stations. A second set of variables was assumed to capture variations in potential organic pollution, reporting the number of open-street food markets, the number of bakery and the quantity of refuses evacuated by collectors. A final set of variables is related to air pollution, considering various gas and particles concentrations in the air, and to noise pollution, related to the density of car traffic.
+   Data on local environmental conditions were extracted from various online databases (sources can be found in the paper). We developed a first set of predictors to inform the local frequentation by humans, as the inhabitant density and the number of people frequenting underground stations. A second set of variables was assumed to capture variations in potential organic pollution, reporting the number of open-street food markets, the number of bakery and the quantity of refuses evacuated by collectors. A final set of variables is related to air pollution, considering various gas and particles concentrations in the air, and to noise pollution, related to the density of car traffic.
 
-   
+
 
 
 
